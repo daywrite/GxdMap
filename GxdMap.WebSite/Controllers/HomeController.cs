@@ -16,7 +16,12 @@ namespace GxdMap.WebSite.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            //char s= '。';
+            //string ss = "";
+            //if (ss.IndexOf('中') > -1)
+            //{
 
+            //}
             return View();
         }
 
